@@ -1,0 +1,21 @@
+.col-center-block {
+    float: none;
+    display: block;
+    margin: 0 auto;
+   
+}
+.top {
+    background: linear-gradient(to bottom, rgba(0, 206, 222, 1) 0%, rgba(117, 55, 209, 1) 41%, rgba(73, 165, 99, 1) 100%);
+    font-family: 'Stoke', serif;
+    font-size: auto;
+    border-radius: 6px;
+    opacity: 0.7;  
+}
+
+.blue{
+    background: linear-gradient(to bottom, rgba(47, 206, 222, 1) 0%, rgba(117, 189, 209, 1) 41%, rgba(73, 165, 191, 1) 100%);
+    font-family: 'Stoke', serif;
+    font-size: auto;
+    border-radius: 6px;
+    opacity: 0.5;  
+}
