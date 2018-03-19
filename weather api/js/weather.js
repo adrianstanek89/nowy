@@ -14,6 +14,9 @@ function getForecast(){
         
         $.ajax({
             url: 'http://api.openweathermap.org/data/2.5/forecast/daily?q=' + city + "&units=metric" + "&cnt=" + days + "&APPID=c10bb3bd22f90d636baa008b1529ee25",
+            
+            <!-- url: 'http://api.openweathermap.org/data/2.5/forecast/daily?q=' + city + "&&APPID=9c398cd4cf22ab63cebf65a655f9d64d" nie mogłem sobie z tym key-em poradzic zrobiłem troszke inaczej -->
+            
             type: "GET",
             dataType: "jsonp",
             success: function(data){
